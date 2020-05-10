@@ -6,18 +6,23 @@
     </head>
     <style> 
         #top {
-            margin-left: 45%;
-            padding: 10px;
+            margin-left: 200px;
+            text-align-last: center;
             font-size: 24px;
             font-family: 'Times New Roman', Times, serif;
-            background-color: rgb(194, 188, 255);
-            height: 24PX;
-            width: 298px;
+            background-color: yellowgreen;
+            height: 85PX;
+            width: 80%;
         }
         #body{
             font-size: 28px;
             font-family: 'Times New Roman', Times, serif;
             padding: 120px;
+        }
+        #suggesion{
+            font-family: monospace;
+            background-color: lightgray;
+            color: gray;
         }
         .name{
             font-family: 'Times New Roman', Times, serif;
@@ -75,5 +80,52 @@
             </tr>
                 
         </table>
+        <div id="suggesion">
+            <p>
+                Leave your suggesion here.
+            </p>
+            <p>
+                <input name="name"type="text" placeholder="Full name">
+            </p>
+            <p>
+                <input name="email" type="email" placeholder="Email ID">
+            </p>           
+            <p>
+                user type
+            </p>
+            <input name="usertype" type="radio" value="admin">Admin
+            <input name="usertype" type="radio" value="user">Standard user
+            <p>
+                what changes you want in the video game:
+            </p>
+            <p>
+                <input name="change" list="change" placeholder="Make changes in">
+                <datalist id="change">
+                    <option value="Make more easy to use">
+                    <option value="Improve the graphics">
+                    <option value="Make control easy">
+                    <option value="Make gameplay adventurous">
+                    <option value="Make more easy to use">
+                    <option value="Improve the graphics">
+                    <option value="Make gameplay adventurous">
+                    <option value="Make more easy to use">
+                    <option value="Improve the graphics">
+                    <option value="Make control easy">
+                    <option value="Make gameplay adventurous">
+                    <option value="Make more easy to use">
+                    <option value="Improve the graphics">
+                    <option value="Make control easy">
+                    <option value="Make gameplay adventurous">
+                    <option value="Make more easy to use">
+                    <option value="Improve the graphics">
+                    <option value="Make control easy">
+                    <option value="Make gameplay adventurous">
+                    <option value="Make more easy to use">
+                    <option value="Improve the graphics">
+                    <option value="Make control easy">
+                    <option value="Make gameplay adventurous">    
+                </datalist>
+            </p>
+        </div>
     </body>
 </html> 
