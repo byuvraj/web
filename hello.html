@@ -4,15 +4,38 @@
     <head>
         <title>Welcome</title>
     </head>
-    <style> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <style>
+        .container{
+            display:flex;
+            flex-wrap: wrap;
+        }
+        .container > div{
+            background-color: seashell;
+            padding: 20px;
+            margin: 20px;
+            font-size: 24px;
+            width: 225px;
+        }
+        @media (min-width: 800px) {
+            h5::after{
+                content: "Beyond your imagination";
+            }            
+        }
+        @media (max-width: 799px) {
+            h5::after{
+                content: "Welcome to my world";
+            }            
+        }
         #top {
-            margin-left: 200px;
+            margin-left: 125px;
+            margin-right: 125px;
             text-align-last: center;
             font-size: 24px;
             font-family: 'Times New Roman', Times, serif;
             background-color: yellowgreen;
             height: 85PX;
-            width: 80%;
+            width: auto;
         }
         #body{
             text-align: justify ;
@@ -64,13 +87,14 @@
             background-color: orange;
         }
         p::selection{
-            color: white;
+            color: black;
             background-color: turquoise;
         }
     </style>
     <body>
         <div id="top">
             Welcome to <span class="name">PASSION</span> games
+            <h5></h5>
         </div>
         <div id="body">
             <p>
@@ -107,6 +131,12 @@
             </tr>
                 
         </table>
+        <div class="container">
+            <div>Ready for some fun</div>
+            <div>need little more excitment</div>
+            <div>show the world you are the nest</div>
+        </div>
+            
         <div id="suggesion">
             <p>
                 Leave your suggesion here.
