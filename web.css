@@ -1,0 +1,94 @@
+/* line 3, web.scss */
+.container {
+  display: flex;
+  flex-wrap: wrap; }
+
+/* line 7, web.scss */
+.container > div {
+  background-color: seashell;
+  padding: 20px;
+  margin: 20px;
+  font-size: 24px;
+  width: 225px; }
+
+@media (min-width: 800px) {
+  /* line 15, web.scss */
+  h5::after {
+    content: "Beyond your imagination"; } }
+@media (max-width: 799px) {
+  /* line 20, web.scss */
+  h5::after {
+    content: "Welcome to my world"; } }
+/* line 24, web.scss */
+#top {
+  margin-left: 125px;
+  margin-right: 125px;
+  text-align-last: center;
+  font-size: 24px;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: yellowgreen;
+  height: 85PX;
+  width: auto; }
+
+/* line 34, web.scss */
+#body {
+  text-align: justify;
+  font-size: 28px;
+  font-family: Monotype Corsiva;
+  color: darkorange;
+  padding: 120px; }
+
+/* line 41, web.scss */
+#suggesion {
+  margin-left: 8px;
+  padding: 6px;
+  font-family: monospace;
+  background-color: lightgray;
+  color: darkslategrey; }
+
+/* line 48, web.scss */
+.name {
+  font-family: 'Times New Roman', Times, serif;
+  color: #fc2e8e;
+  font-weight: bold; }
+
+/* line 53, web.scss */
+table {
+  margin-left: 30%;
+  border: 1px solid orchid;
+  border-collapse: collapse; }
+
+/* line 58, web.scss */
+td {
+  font-size: 28px;
+  border: 2px solid;
+  padding: 0.25cm; }
+
+/* line 63, web.scss */
+th {
+  border: 2px solid orchid;
+  font-size: 30px;
+  padding: 0.75cm; }
+
+/* line 68, web.scss */
+input[type=text] {
+  font-family: monospace;
+  background-color: #9ed7e9;
+  color: darkslategrey; }
+
+/* line 73, web.scss */
+button {
+  background-color: floralwhite;
+  width: 200px;
+  height: 35px; }
+
+/* line 78, web.scss */
+button:hover {
+  width: 210pxx;
+  height: 40px;
+  background-color: red; }
+
+/* line 83, web.scss */
+p::selection {
+  color: black;
+  background-color: turquoise; }
